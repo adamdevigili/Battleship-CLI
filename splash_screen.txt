@@ -1,0 +1,36 @@
+
+
+                         `
+                        :             ` -`
+                        :             .-yo.
+                      ``s.      .:+s+ ./hdo `
+      -----::::    ``.o:++ooo/:/+sdhh::shdhoy++/.--.```  ::::-----
+........`.--/:++so+soyddhhdddhhhhhdhdhhhhhhhhhhhoyhyo-+so+:::-.......:..--.
+-ossssssosyyhyyhhyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyhyyssssssooosoos/`
+  ..+yoyydhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh`
+     ____       _______ _______ _      ______  _____ _    _ _____ _____
+    |  _ \   /\|__   __|__   __| |    |  ____|/ ____| |  | |_   _|  __ \
+    | |_) | /  \  | |     | |  | |    | |__  | (___ | |__| | | | | |__) |
+    |  _ < / /\ \ | |     | |  | |    |  __|  \___ \|  __  | | | |  ___/
+    | |_) / ____ \| |     | |  | |____| |____ ____) | |  | |_| |_| |
+    |____/_/    \_\_|     |_|  |______|______|_____/|_|  |_|_____|_|
+Ascii-art text-image.com
+
+Made by: Adamo Devigili
+Date: April 16, 2017
+
+How to play:
+Battleship is a very simple game to play. You will place 5 ships of varying sizes on your game board, then your opponent will
+place 5 on their board, however their board is hidden from you. Your goal is to sink all of their ships by hitting every part
+of each ship on their board.
+
+You will be prompted to choose coordinates and orientation for your ships. Since this is a CLI program, the input is clunky, but
+functional. You will enter a coordinate, first by row (number), then by column (letter), separated by a comma. So valid coordinates
+would be "2, A", "8, B", or "4, C". After you choose your coordinate, you will be prompted for the orientation of the ship. Enter
+either "v" or "h" to indicate whether you want your ship oriented vertically or horizontally. You cannot place ships outside of the play
+area. The game will alert you if this happens, and allow you to place your ship again
+
+Once all ships have been placed, the game will start. You simply enter coordinates (as you did to place ships) you wish to fire upon.
+You will be able to see where you have fired, and whether the shot was a hit or miss
+
+Have fun!
